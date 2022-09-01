@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+   int n=5,result;
+   result=fact(n);
+   printf("factorial is %d",result);
+}
+int fact(int x)
+{
+    int i,fact=1;
+      for(i=1;i<=x;i++)
+      {
+          fact=fact*i;
+      }
+      return(fact);
+}
+
+    
